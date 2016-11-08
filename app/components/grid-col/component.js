@@ -1,0 +1,1 @@
+export { default } from 'e-css-modules-utils-addon-example/components/grid-col/component';
