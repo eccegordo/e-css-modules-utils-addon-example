@@ -1,22 +1,10 @@
 /*jshint node:true*/
 /* global require, module */
 var EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
-var autoprefixer = require('autoprefixer');
 
 module.exports = function(defaults) {
   var app = new EmberAddon(defaults, {
     // Add options here
-    cssModules: {
-      plugins: {
-        before: [
-          require('lost'),
-          require('postcss-nested')
-        ],
-        after: [
-          autoprefixer('last 2 versions')
-        ]
-      }
-    }
   });
 
   /*
