@@ -1,6 +1,8 @@
-# E-css-modules-utils-addon-example
+# e-css-modules-utils-addon-example
 
-This README outlines the details of collaborating on this Ember addon.
+Emulate https://github.com/max/e-css-modules-utils-example
+
+But as an addon instead of an ember cli app.
 
 ## Installation
 
